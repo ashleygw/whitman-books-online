@@ -1,32 +1,47 @@
-Welcome to Whitman Books Online's documentation!
-================================================
+==================================
+Whitman Books Online Documentation
+==================================
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Table of Contents:
+   :glob:
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Introduction:
+   :glob:
+
+   intro/*
+
 
 .. toctree::
    :maxdepth: 1
    :caption: User Guides:
    :glob:
 
-   usr-docs/*
-.. Quickstart
-.. etc...
+   usr-docs/userguide.rst
 
 .. toctree::
    :maxdepth: 1
    :caption: Developer Guides:
    :glob:
 
+   dev-docs/frontend-description.rst
    dev-docs/api-guide.rst
    dev-docs/autodoc-index.rst
-.. Quickstart
-.. etc...
+
 
 .. toctree::
    :maxdepth: 1
    :caption: Extra Documents:
    :glob:
 
-   meeting/meeting-index.rst
    extra/*
+   meeting/meeting-index.rst
+   usr-docs/privacy-policy.rst
 
 
 .. Indices and tables
@@ -34,3 +49,5 @@ Welcome to Whitman Books Online's documentation!
    * :ref:`genindex`
    * :ref:`modindex`
    * :ref:`search`
+
+
